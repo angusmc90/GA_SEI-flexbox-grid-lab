@@ -4,6 +4,7 @@
   
   body {
     margin: 0;
+    background-color: rgb(43,93,95);
     font-family: Helvetica;
     display:grid;
     /* adding two columns across both axis rather than adjust margins */
@@ -11,6 +12,10 @@
     grid-template-rows: - - - -;
     grid-template-columns: - - - - _ _; 
     */
+  }
+
+  span {
+    display:block;
   }
 
   /* .cardContainer {
@@ -24,3 +29,49 @@
   #horizontal {
     display:grid;
   }
+
+  .cardContainer{
+    background-color: white;
+  }
+
+  .rates, #hInfo {
+    background-color: rgb(243,243,243);
+  }
+
+  /*
+
+
+  SOME STUFF THAT APPLY TO MORE THAN ONE ELEMENT IN THE HTML
+
+
+  */
+
+  #phone, #msg, #vertical{
+    text-align: center;
+  }
+
+  /* 
+  
+  CONTACT BUTTON STYLING GOES HERE 
+  
+  */
+
+  .contactButtons{
+    color: #ffffff;
+  }
+
+  #phone{
+    background-color: rgb(130,207,144);
+    text-align: center;
+  }
+
+  #msg{
+    background-color: rgb(116,187,129);
+    text-align: center;
+  }
+
+  /* 
+  
+  RATING AND WHATEVER THIS JOB TITLE IS GOES HERE 
+  
+  */
