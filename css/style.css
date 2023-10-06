@@ -5,4 +5,22 @@
   body {
     margin: 0;
     font-family: Helvetica;
+    display:grid;
+    /* adding two columns across both axis rather than adjust margins */
+    /* HIDING SO NO ERROR CODES FOR NOW
+    grid-template-rows: - - - -;
+    grid-template-columns: - - - - _ _; 
+    */
+  }
+
+  /* .cardContainer {
+    display:flex;
+  } */
+
+  #vertical {
+    display:grid;
+  }
+
+  #horizontal {
+    display:grid;
   }
